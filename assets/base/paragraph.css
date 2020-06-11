@@ -1,0 +1,10 @@
+.content-title > .about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.content-title > .name-person {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    color: #153243;
+}
