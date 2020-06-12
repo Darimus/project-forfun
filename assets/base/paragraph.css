@@ -1,4 +1,7 @@
-
+.body p, h2{
+    font-family: 'Jost', sans-serif;
+    color: #153243;
+}
 
 .content-title > .about {
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +28,9 @@
     transform: rotate(90deg);
 }
 
-
-.container > .services-product > .stock-photography {
-
+.row .stock-photography {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
 }

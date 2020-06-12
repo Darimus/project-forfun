@@ -1,13 +1,19 @@
 .color {
     background-color: #f8f9fa;
-    height: 930px;
 }
 
 .container-main {
     background-color: #f8f9fa;
-    height: 825px;
 }
 
 .container-about > .content-title {
     margin-top: 100px;
+}
+
+.row {
+    margin: 0;
+}
+
+@media (max-width:768px) {
+    
 }

@@ -9,3 +9,9 @@
     color: #153243;
     margin-top: 200px;
 }
+
+.row > .services-product h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 28px;
+}

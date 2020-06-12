@@ -18,3 +18,9 @@
     top: 850px;
     left: 15px
 }
+
+.container > .row > .services-product {
+    margin-top: 65px;
+    align-items: center;
+    text-align: center;
+}
