@@ -18,4 +18,6 @@
 
 .hire-container > .row > .title h2 {
     font-size: 54px;
+    padding-left: 19px;
+    width: 400px;
 }

@@ -24,3 +24,8 @@
     align-items: center;
     text-align: center;
 }
+
+.hire-container > .row .woman-camera {
+    width: 432px;
+    height: 582px;
+}

@@ -34,3 +34,10 @@
     font-weight: 400;
     font-size: 18px;
 }
+
+.hire-container > .row > .title p {
+    font-style: italic;
+    font-size: 22px;
+    width: 400px;
+    padding-left: 90px;
+}
