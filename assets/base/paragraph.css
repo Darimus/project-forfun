@@ -1,3 +1,5 @@
+
+
 .content-title > .about {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -8,4 +10,17 @@
     font-family: 'Jost', sans-serif;
     font-size: 35px;
     color: #153243;
+}
+
+.photo > .scroll-p {
+    display: inline-block;
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    color: #153243;
+    font-size: 22px;
+    height: 30px;
+    width: 250px;
+    left: 420px;
+    top: 730px;
+    transform: rotate(90deg);
 }

@@ -1,0 +1,11 @@
+/* .container{
+    background-color: #f8f9fa;
+} */
+.container-main {
+    background-color: #f8f9fa;
+    height: 825px;
+}
+
+.container-about > .content-title {
+    margin-top: 100px;
+}
