@@ -1,6 +1,8 @@
-/* .container{
+.color {
     background-color: #f8f9fa;
-} */
+    height: 930px;
+}
+
 .container-main {
     background-color: #f8f9fa;
     height: 825px;
