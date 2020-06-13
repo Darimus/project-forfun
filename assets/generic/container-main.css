@@ -27,6 +27,11 @@
     text-align: center;
     margin-top: 69px;
 }
-@media (max-width:768px) {
-    
+
+.container-portfolio {
+    margin-top: 130px;
+}
+
+.color > .container .project-paragraph {
+    margin-top: 136px;
 }

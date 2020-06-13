@@ -43,3 +43,10 @@
     width: 400px;
     height: 600px;
 }
+
+.color > .container  .photo > .man-yellow {
+    position: relative;
+    width: 485px;
+    height: 703px;
+    top: -98px;
+}
