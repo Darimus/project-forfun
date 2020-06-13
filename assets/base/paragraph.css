@@ -41,3 +41,11 @@
     width: 400px;
     padding-left: 90px;
 }
+
+.color > .container  .project-paragraph .project {
+    font-family: 'Jost', sans-serif;
+    margin-left: 100px;
+    color: #153243;
+    font-size: 18px;
+    font-style: italic;
+}

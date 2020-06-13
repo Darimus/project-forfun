@@ -14,6 +14,19 @@
     margin: 0;
 }
 
+.hire-container {
+    margin-top: 129px;
+}
+
+.hire-container > .row > .woman-train {
+    margin-left: 813px;
+}
+
+.hire-container > .row > .btn-start {
+    align-items: center;
+    text-align: center;
+    margin-top: 69px;
+}
 @media (max-width:768px) {
     
 }

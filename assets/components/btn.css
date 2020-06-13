@@ -1,11 +1,17 @@
-.navbar > .btn-cv {
-    width: 194px;
-    height: 55px;
+body button{
     font-family: 'Jost', sans-serif;
     font-size: 18px;
+    box-sizing: border-box;
     border: none;
     color: white;
     background-color: #153243;
+}
+
+.navbar > .btn-cv {
+    width: 194px;
+    height: 55px;
+    font-size: 18px;
+
 }
 
 .container-about > .btn-hire button {
@@ -14,10 +20,15 @@
     height: 130px;
     top: -15px;
     left: 15px;
-    font-family: 'Jost', sans-serif;
     font-size: 18px;
-    background-color: #153243;
-    color: white;
-    border: none;
+
 }
 
+.hire-container > .row > .btn-start > .start {
+    width: 294px;
+    height: 65px;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 22px;
+}

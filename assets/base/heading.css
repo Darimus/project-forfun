@@ -1,3 +1,9 @@
+/* body h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 43px;
+    color: #153243;
+} */
+
 .container > .row > .services {
     display: block;
     width: 100%;
@@ -20,4 +26,10 @@
     font-size: 54px;
     padding-left: 19px;
     width: 400px;
+}
+
+.color > .container-portfolio > .title-project > .projects {
+    font-family: 'Jost', sans-serif;
+    font-size: 43px;
+    color: #153243;
 }
