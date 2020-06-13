@@ -45,7 +45,7 @@
 }
 
 .color > .container  .photo > .man-yellow {
-    position: relative;
+    position: absolute;
     width: 485px;
     height: 703px;
     top: -98px;
