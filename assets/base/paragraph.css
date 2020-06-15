@@ -49,3 +49,17 @@
     font-size: 18px;
     font-style: italic;
 }
+
+.color > .container .project-text-button .project-legend {
+    font-family: 'Jost', sans-serif;
+    color: #153243;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.color > .container .project-text-button .project-legend-align {
+    left: 160px;
+    width: 50px;
+}

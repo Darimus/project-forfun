@@ -28,8 +28,38 @@
     width: 400px;
 }
 
+.color > .container-portfolio > .title-project {
+    position: relative;
+    top: -25px;
+}
+
 .color > .container-portfolio > .title-project > .projects {
     font-family: 'Jost', sans-serif;
     font-size: 43px;
     color: #153243;
+}
+
+.container-team > .container > .title-team {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-team > .container > .row .team-member {
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    color: #153243;
+    margin-top: 15px;
+}
+
+.container-team > .container > .row .team-expertise {
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    color: #153243;
+    font-style: italic;
+}
+
+.container-team > .container > .row .social-media-position h2 {
+    color: white;
+    margin-top: 8px;
 }

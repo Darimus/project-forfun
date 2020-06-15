@@ -32,3 +32,13 @@ body button{
     font-weight: 400;
     font-size: 22px;
 }
+
+.color > .container > .photo-projects .project-text-button .btn-portfolio {
+    height: 150px;
+    font-family: 'Jost', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    align-items: center;
+    left: 107px;
+    top: -24px;
+}

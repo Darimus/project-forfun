@@ -30,8 +30,28 @@
 
 .container-portfolio {
     margin-top: 130px;
+    height: 780px;
 }
 
 .color > .container .project-paragraph {
     margin-top: 136px;
+}
+
+.color > .container .project-text-button {
+    top: -90px;
+}
+
+.container-team {
+    margin-top: 150px;
+}
+
+.container-team .container-member {
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 1199px) {
+    .hire-container > .row > .woman-train {
+        margin-left: 0px;
+    }
 }
