@@ -63,3 +63,7 @@
     color: white;
     margin-top: 8px;
 }
+
+.color-blue > .title-have-project {
+    color: white;
+}

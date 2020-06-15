@@ -50,6 +50,16 @@
     text-align: center;
 }
 
+.color-blue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #153243;
+    height: 221px;
+    align-items: center;
+    text-align: center;
+}
+
 @media (max-width: 1199px) {
     .hire-container > .row > .woman-train {
         margin-left: 0px;

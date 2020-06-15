@@ -42,3 +42,11 @@ body button{
     left: 107px;
     top: -24px;
 }
+
+.color-blue > .btn-start-project {
+    background-color: #fff;
+    color: #153243;
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+}
