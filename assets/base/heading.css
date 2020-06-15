@@ -67,3 +67,9 @@
 .color-blue > .title-have-project {
     color: white;
 }
+
+.color > .title-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

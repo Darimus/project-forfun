@@ -60,6 +60,29 @@
     text-align: center;
 }
 
+.client-logo {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container-feedback {
+    margin-top: 100px;
+}
+
+.container-feedback > .title-feedback {
+    padding-top: 50px;
+}
+
+.container-feedback > .container {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    
+}
+
 @media (max-width: 1199px) {
     .hire-container > .row > .woman-train {
         margin-left: 0px;
