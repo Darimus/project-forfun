@@ -88,3 +88,17 @@
     font-weight: 500;
     font-style: italic;
 }
+
+.container-blog .date {
+    text-align: end;
+}
+
+.container-blog .date1 {
+    padding-left: 0;
+}
+
+.container-blog  .card-body p {
+    font-family: 'Jost', sans-serif;
+    color: #153243;
+    font-size: 18px;
+}
