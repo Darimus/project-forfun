@@ -2,10 +2,12 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/generic/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital@0;1&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,400&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/base/header.css">
     <link rel="stylesheet" href="assets/base/title.css">
     <link rel="stylesheet" href="assets/base/photo.css">
@@ -241,21 +243,41 @@
 
   <article class="container row col-sm-12 col-md-12 col-xl-12">
 
-    <div class="col-sm-12 col-md-12 col-xl-1">
-      <img class="" src="assets/img/Page-1.png" alt="Aspas">
+    <div class="photo-aspas col-sm-12 col-md-12 col-xl-4">
+      <img class="aspas" src="assets/img/Page-1.png" alt="Aspas">
     </div>
 
-    <div class="col-sm-12 col-md-12 col-xl-2">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam qui repudiandae quaerat, quis hic suscipit.</p>
-      <p>Jonathon Smith</p>
-      <p>Ceo at Google</p>
+    <div class="container-cite col-sm-12 col-md-12 col-xl-4">
+      <cite class="cite-feedback">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam qui repudiandae quaerat, quis hic suscipit.</cite>
+      <p class="feedback-name">Jonathon Smith</p>
+      <p class="feedback-profession">Ceo at Google</p>
     </div>
 
-    <figure class="col-sm-12 col-md-12 col-xl-9">
+    <figure class="container-photo col-sm-12 col-md-12 col-xl-4">
       <img class="photo-feedback" src="assets/img/jake-nackos-IF9TK5Uy-KI-unsplash@2x.png" alt="Foto woman">
     </figure>
   </article>
 </section>
 
+<section class="container-blog container"> 
+    <article>
+      <h2>Latest Blog Posts</h2>
+    </article>
+
+    <div class="row col-sm-12 col-md-12 col-xl-12">
+      <div class="card">
+        <img src="assets/img/zhang-kaiyv-DgnTgj0szVg-unsplash.png" class="card-img-top" alt="Zhang Kaiyv">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      
+      <article class="col-sm-12 col-md-12 col-xl-6">
+        <img src="assets/img/surface-wIgQqekgK7Q-unsplash.png" alt="Surface notebook">
+      </article>
+  </div>
+</section>
 </body>
 </html>
