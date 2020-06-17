@@ -77,8 +77,18 @@
 
 .container-feedback > .container .photo-aspas .aspas {
     margin-top: 100px;
-    margin-left: 470px;
+    padding-left: 470px;
 }
 
 .container-blog > .row .card-img-top1 {
 }
+
+/* @media (max-width: 1199px) IDEIAAAAAAA{
+    .man-yellow {
+        display: none;
+    }
+
+    .client-logo {
+        display: none;
+    }
+} */

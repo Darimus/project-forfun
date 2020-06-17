@@ -51,6 +51,25 @@ body button{
     margin-top: 15px;
 }
 
-.container-blog .card .btn-primary {
-    
+.container-blog .btn-primary {
+    background-color: transparent;
+    color: #153243;
+    border-radius: 0;
+    border-color: #153243;
+    font-size: 20px;
+}
+
+.container-blog .teste-btn {
+    position: relative;
+    left: 230px;
+}
+
+.container-form .btn-primary {
+    background-color: #5EC2FE;
+    color: #153243;
+    width: 200px;
+    border: 0;
+    border-radius: 0;
+    font-size: 20px;
+    margin-bottom: 100px;
 }

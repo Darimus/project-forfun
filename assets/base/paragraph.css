@@ -100,5 +100,25 @@
 .container-blog  .card-body p {
     font-family: 'Jost', sans-serif;
     color: #153243;
-    font-size: 18px;
+}
+
+.container-blog .date, .date1 {
+    font-style: italic;
+}
+
+.container-blog .card-text {
+    font-size: 25px;
+}
+
+.container-blog .trending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    margin-left: 30px;
+    width: 130px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
 }
