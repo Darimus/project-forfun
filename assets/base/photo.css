@@ -5,6 +5,11 @@
 
 }
 
+.color > .container > .main-header > .menu-header > .navbar .logo-fotoz {
+    position: relative;
+    top: -12px;
+}
+
 .photo > .main-photo {
     margin-top: 30px;
     width: 504.08px;
@@ -76,8 +81,9 @@
 }
 
 .container-feedback > .container .photo-aspas .aspas {
+    position: relative;
     margin-top: 100px;
-    padding-left: 470px;
+    left: 470px;
 }
 
 .container-blog > .row .card-img-top1 {
