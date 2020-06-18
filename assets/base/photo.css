@@ -81,8 +81,9 @@
 }
 
 .container-feedback > .container .photo-aspas .aspas {
+    position: relative;
     margin-top: 100px;
-    padding-left: 470px;
+    left: 470px;
 }
 
 .container-blog > .row .card-img-top1 {

@@ -67,7 +67,7 @@
 .container-feedback > .row .cite-feedback {
     font-family: 'Open Sans', sans-serif;    
     color: #153243;
-    text-align: center;
+    padding-left: 0;
     font-size: 28px;
     font-style: italic;
     font-weight: 600;
