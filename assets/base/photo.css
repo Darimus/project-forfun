@@ -2,10 +2,6 @@
     border: 1px solid red !important; 
 }
 
-.container {
-    margin-left: 0;
-    margin-right: 0;
-}
 .photo {
     display: flex;
     flex-basis: auto;
