@@ -89,7 +89,55 @@
 .container-blog > .row .card-img-top1 {
 }
 
-/* @media (max-width: 1199px) IDEIAAAAAAA{
+@media (max-width: 1199px) {
+    .hire-container > .row > .woman-train img {
+        display: none;
+    }
+
+    .hire-container > .row .hire-paragraph {
+        margin: 0 auto;
+    }
+
+    .hire-container > .row .hire-p {
+        padding-left: 0 !important; 
+    }
+
+    .container-portfolio {
+        height: auto !important;
+    }
+
+    .color > .container-portfolio > .title-project {
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-portfolio .photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1415px) {
+    .color > .container .photo > .man-yellow{
+        width: 370px;
+    }
+
+}
+
+@media (max-width: 1410px) {
+
+    .hire-container > .row > .title p {
+        padding-left: 0;
+    }
+
+    .color > .container .photo > .man-yellow{
+        width: 350px;
+    }
+}
+
+@media (max-width: 1199px) {
     .man-yellow {
         display: none;
     }
@@ -97,4 +145,4 @@
     .client-logo {
         display: none;
     }
-} */
+}

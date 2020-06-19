@@ -95,6 +95,30 @@
     right: 150px;
 }
 
+.container-feedback .carousel-indicators {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.container-feedback .carousel-indicators li{
+    position: relative;
+    top: 10px;
+}
+
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   height: 100px;
+   width: 100px;
+   outline: black;
+   background-size: 100%, 100%;
+   border-radius: 50%;
+   background-image: none;
+}
+ 
+.container-feedback .carousel-indicators {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .container-feedback > .container .carousel {
     width: 432px;
 }
