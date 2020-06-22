@@ -1,6 +1,6 @@
-*{ 
+/* *{ 
     border: 1px solid red !important; 
-}
+} */
 
 .photo {
     display: flex;
@@ -93,8 +93,41 @@
 .container-blog > .row .card-img-top1 {
 }
 
-@media (max-width: 991px) {
+@media (max-width: 900px) {
+    .hire-container .why-hire {
+        display: none;
+    }
 
+    .hire-container .woman {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .container .menu-header .btn-cv {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .container-main .btn-hire {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-about > .btn-hire button {
+        left: auto !important;
+    }
+
+    
 }
 
 @media (max-width: 1199px) {
@@ -161,6 +194,9 @@
         align-items: center;
         justify-content: center;
 
+    }
+    .container-about > .btn-hire button {
+        left: auto !important;
     }
 
     .form-group {

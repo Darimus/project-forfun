@@ -59,9 +59,14 @@ body button{
     font-size: 20px;
 }
 
-.container-blog .teste-btn {
-    position: relative;
-    left: 230px;
+.container-blog .f-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-blog .btn-position {
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-blog .btn-blog {
@@ -85,6 +90,10 @@ body button{
     background-color: #153243;
     width: 300px;
     height: 70px;
+}
+
+.container-blog .card .btn-primary {
+    font-style: normal;
 }
 
 .container-form .btn-primary {
