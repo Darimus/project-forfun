@@ -11,7 +11,12 @@
 }
 
 .row {
-    margin: 0;
+    justify-content: space-evenly;
+}
+
+.container-about .btn-hire {
+    display: flex;
+    right: 187px;
 }
 
 .hire-container {
@@ -19,7 +24,9 @@
 }
 
 .hire-container > .row > .woman-train {
-    margin-left: 813px;
+    display: flex;
+    justify-content: flex-end;
+    right: 9px;
 }
 
 .hire-container > .row > .btn-start {
