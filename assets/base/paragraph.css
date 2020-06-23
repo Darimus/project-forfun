@@ -97,6 +97,12 @@
     padding-left: 0;
 }
 
+.container-blog .by-name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .container-blog  .card-body p {
     font-family: 'Jost', sans-serif;
     color: #153243;

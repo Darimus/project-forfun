@@ -131,10 +131,16 @@
     width: 432px;
 }
 
-.ctonainer-blog .card-img, .card-img-top, .card {
+.container-blog .card-img, .card-img-top, .card {
     border-radius: 0;
     border: 0;
     background-color: #f8f9fa;
+}
+
+.container-blog .teste-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .container-form {
