@@ -126,7 +126,20 @@
     
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
+
+    .container-navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .color > .container > .main-header > .menu-header > .navbar .logo-fotoz {
+        top: 0;
+    }
+
+    .container-about > .content-title {
+        margin-top: 50px;
+    }
 
     .container-main .photo {
         display: none;
@@ -138,6 +151,10 @@
 
     .container-services {
         margin: 0;
+    }
+
+    .hire-container {
+        margin-top: 50px;
     }
 
     .hire-container > .row > .title h2 {
@@ -163,6 +180,11 @@
         height: auto;
     }
 
+    .photo-projects {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .color > .container .photo > .woman-white {
         width: 100%;
         height: auto;
@@ -185,6 +207,60 @@
         top: 0;
         left: 0;
         font-size: 25px;
+    }
+
+    /* Container team */
+
+    .container-team > .container > .row .photo-man, .photo-woman2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-team > .container > .row .photo-woman {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .container-team .container-woman2 {
+        top: -70px;
+    }
+
+    /* Container Feed-back */
+
+    .container-feedback > .container > .container-photo {
+        display: none;
+    }
+
+    .container-feedback > .container > .container-cite {
+        margin-top: 0;
+    }
+
+    .container-feedback > .row .cite-feedback {
+        font-size: 20px;
+    }
+
+    .container-feedback > .row .feedback-name {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .container-feedback > .row .feedback-profession {
+        font-size: 12px;
+    }
+
+    .container-blog .container-blog-positon {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-blog .trending {
+        display: none;
+    }
+
+    .container-blog .btn-blog .btn {
+        width: 100%;
+        padding: 0 15px;
     }
 }
 
@@ -274,8 +350,8 @@
 
     .container-feedback > .container > .container-photo {
         right: 0 !/* important */;
-        display: flex;
-        align-items: center;
+/*         display: flex;
+ */        align-items: center;
         justify-content: center;
 
     }
