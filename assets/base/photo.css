@@ -17,8 +17,6 @@
 .photo > .main-photo {
     position: relative;
     margin-top: 30px;
-    width: inherit;
-    height: inherit;
 }
 
 .photo .img-rotate {
@@ -128,6 +126,94 @@
     
 }
 
+@media (max-width: 320px) {
+
+    .container-main .photo {
+        display: none;
+    }
+
+    .container-main .btn-hire {
+        right: auto;
+    }
+
+    .container-services {
+        margin: 0;
+    }
+
+    .hire-container > .row > .title h2 {
+        font-size: 3.5rem;
+        padding-left: 0;
+        width: 250px;
+    }
+
+    .hire-container > .row > .title p {
+        padding-left: 0;
+        width: 250px;
+    }
+
+    .hire-container > .row > .btn-start {
+        margin-top: 0;
+    }
+
+    .hire-container > .row > .btn-start > .start {
+        font-size: 19px;
+        width: 200px;
+    }
+    .container-portfolio {
+        height: auto;
+    }
+
+    .color > .container .photo > .woman-white {
+        width: 100%;
+        height: auto;
+    }
+
+    .color > .container .project-paragraph {
+        margin-top: 0;
+    }
+
+    .color > .container .project-paragraph .project {
+        margin: 0;
+    }
+
+    .color > .container .project-text-button {
+        top: 0;
+        left: 0;
+    }
+
+    .color > .container > .photo-projects .project-text-button .btn-portfolio {
+        top: 0;
+        left: 0;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1001px) {
+    .photo > .main-photo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1044px) {
+    .photo > .scroll-p {
+        display: none !important;
+    }
+
+    .photo .img-rotate {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .man-yellow {
+        display: none;
+    }
+
+    .client-logo {
+        display: none;
+    }
+}
+
 @media (max-width: 1199px) {
     .hire-container > .row > .woman-train img {
         display: none;
@@ -138,11 +224,11 @@
     }
 
     .hire-container > .row .hire-p {
-        padding-left: 0 !important; 
+        padding-left: 0 /* !important */; 
     }
 
     .container-portfolio {
-        height: auto !important;
+        height: auto !/* important */;
     }
 
     .color > .container-portfolio > .title-project {
@@ -158,11 +244,11 @@
     }
 
     .color > .container .project-paragraph {
-        margin-top: 0 !important;
+        margin-top: 0 !/* important */;
     }
 
     .color > .container .project-text-button {
-        top: 0 !important;
+        top: 0 !/* important */;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -174,12 +260,12 @@
     }
 
     .color > .container > .photo-projects .project-text-button .btn-portfolio {
-        left: 0 !important;
-        top: 0 !important;
+        left: 0 !/* important */;
+        top: 0 !/* important */;
     }
 
     .client-logo {
-        display: none !important;
+        display: none !/* important */;
     }
 
     .container-feedback > .container > .photo-aspas {
@@ -187,37 +273,20 @@
     }
 
     .container-feedback > .container > .container-photo {
-        right: 0 !important;
+        right: 0 !/* important */;
         display: flex;
         align-items: center;
         justify-content: center;
 
     }
     .container-about > .btn-hire button {
-        left: auto !important;
+        left: auto !/* important */;
     }
 
     .form-group {
         display: flex;
         flex-direction: column;
     }
-}
-
-@media (max-width: 1044px) {
-    .photo > .scroll-p {
-        display: none !important;
-    }
-
-    .photo .img-rotate {
-        display: none !important;
-    }
-}
-
-@media (max-width: 1415px) {
-    .color > .container .photo > .man-yellow{
-        width: 370px;
-    }
-
 }
 
 @media (max-width: 1410px) {
@@ -231,18 +300,9 @@
     }
 }
 
-@media (max-width: 1199px) {
-    .man-yellow {
-        display: none;
+@media (max-width: 1415px) {
+    .color > .container .photo > .man-yellow{
+        width: 370px;
     }
 
-    .client-logo {
-        display: none;
-    }
-}
-
-@media (max-width: 320px) {
-    .container-main .photo {
-        display: none;
-    }
 }
