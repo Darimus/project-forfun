@@ -78,6 +78,8 @@ body button {
 .container-blog .btn-blog .btn {
     font-family: 'Jost', sans-serif;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;

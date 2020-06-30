@@ -126,7 +126,11 @@
     
 }
 
-@media (max-width: 500px) {
+@media (max-width: 799px) {
+    /* .main-header IDEIA{
+        position: fixed;
+        width: 100%;
+    } */
 
     .container-navbar {
         padding-left: 0;
@@ -161,11 +165,14 @@
         font-size: 3.5rem;
         padding-left: 0;
         width: 250px;
+        margin: 0 auto;
     }
 
     .hire-container > .row > .title p {
         padding-left: 0;
         width: 250px;
+        margin: 0 auto;
+        margin-bottom: 35px;
     }
 
     .hire-container > .row > .btn-start {
@@ -261,6 +268,56 @@
     .container-blog .btn-blog .btn {
         width: 100%;
         padding: 0 15px;
+    }
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 901px) {
+
+    .container-about .btn-hire{
+        right: auto;
+    }
+
+    /* Contianer services */
+    .container-services {
+        margin: 0 auto;
+    }
+
+    .hire-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hire-container > .row > .why-hire > .client-status {
+        margin-top: 170px;
+    }
+
+    .hire-container > .row > .title h2 {
+        margin-top: 50px;
+    }
+    /* Fim container services */
+
+    /* Inicio Portfolio  */
+    .container-portfolio {
+        height: auto;
+        justify-content: center;
+    }
+
+    .color > .container .project-paragraph{
+        margin-top: 30px;
+    }
+
+    .color > .container .project-text-button {
+        top: auto;
+        left: auto;
+    }
+
+    .color > .container > .photo-projects .project-text-button .btn-portfolio {
+        top: auto;
+        left: auto;
     }
 }
 
