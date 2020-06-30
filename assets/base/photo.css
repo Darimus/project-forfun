@@ -126,7 +126,7 @@
     
 }
 
-@media (max-width: 799px) {
+@media (max-width: 800px) {
     /* .main-header IDEIA{
         position: fixed;
         width: 100%;
@@ -271,11 +271,7 @@
     }
 }
 
-@media (max-width: 800px) {
-
-}
-
-@media (max-width: 901px) {
+@media (max-width: 1118px) {
 
     .container-about .btn-hire{
         right: auto;
@@ -306,8 +302,19 @@
         justify-content: center;
     }
 
+    .photo-projects {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .color > .container .project-paragraph{
         margin-top: 30px;
+        text-align: center;
+    }
+
+    .color > .container .project-paragraph .project {
+        margin-left: 0;
+
     }
 
     .color > .container .project-text-button {
@@ -319,25 +326,20 @@
         top: auto;
         left: auto;
     }
-}
+    /* Fim container portfolio */
 
-@media (max-width: 1001px) {
-    .photo > .main-photo {
-        width: 100%;
+    /* Inicio container feedback */
+    .container-feedback{
+        margin-top: 0;
+    }
+
+    .container-feedback > .container > .container-photo {
+        display: none;
     }
 }
 
-@media (max-width: 1044px) {
-    .photo > .scroll-p {
-        display: none !important;
-    }
+@media (max-width: 1388px) {
 
-    .photo .img-rotate {
-        display: none !important;
-    }
-}
-
-@media (max-width: 1199px) {
     .man-yellow {
         display: none;
     }
@@ -345,9 +347,13 @@
     .client-logo {
         display: none;
     }
+
+    .container-team .member-position {
+       display: none;
+    }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
     .hire-container > .row > .woman-train img {
         display: none;
     }
@@ -357,11 +363,11 @@
     }
 
     .hire-container > .row .hire-p {
-        padding-left: 0 /* !important */; 
+        padding-left: 0; 
     }
 
     .container-portfolio {
-        height: auto !/* important */;
+        height: auto;
     }
 
     .color > .container-portfolio > .title-project {
@@ -377,11 +383,11 @@
     }
 
     .color > .container .project-paragraph {
-        margin-top: 0 !/* important */;
+        margin-top: 0;
     }
 
     .color > .container .project-text-button {
-        top: 0 !/* important */;
+        top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -393,12 +399,12 @@
     }
 
     .color > .container > .photo-projects .project-text-button .btn-portfolio {
-        left: 0 !/* important */;
-        top: 0 !/* important */;
+        left: 0;
+        top: 0;
     }
 
     .client-logo {
-        display: none !/* important */;
+        display: none;
     }
 
     .container-feedback > .container > .photo-aspas {
@@ -406,14 +412,13 @@
     }
 
     .container-feedback > .container > .container-photo {
-        right: 0 !/* important */;
-/*         display: flex;
- */        align-items: center;
+        right: 0;
+        align-items: center;
         justify-content: center;
 
     }
     .container-about > .btn-hire button {
-        left: auto !/* important */;
+        left: auto;
     }
 
     .form-group {
