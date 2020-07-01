@@ -26,7 +26,7 @@
 .hire-container > .row > .woman-train {
     display: flex;
     justify-content: flex-end;
-    right: 9px;
+    right: -63px;
 }
 
 .hire-container > .row > .btn-start {

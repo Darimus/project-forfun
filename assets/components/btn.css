@@ -34,11 +34,14 @@ body button {
 
 .color > .container > .photo-projects .project-text-button .btn-portfolio {
     height: 150px;
+    display: flex;
+    
+    position: relative;
     font-family: 'Jost', sans-serif;
     font-size: 27px;
     text-align: center;
     align-items: center;
-    left: 107px;
+    left: 114px;
     top: -24px;
 }
 

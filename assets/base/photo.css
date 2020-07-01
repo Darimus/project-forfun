@@ -17,12 +17,13 @@
 .photo > .main-photo {
     position: relative;
     margin-top: 30px;
+    width: 100%;
 }
 
 .photo .img-rotate {
     position: relative;
-    width: 55px;
-    height: 50px;
+/*     width: 55px;
+ */    height: 50px;
     top: 830px;
     left: 15px
 }
