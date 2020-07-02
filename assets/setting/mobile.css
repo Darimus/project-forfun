@@ -1,102 +1,15 @@
-/* *{ 
-    border: 1px solid red !important; 
-} */
+@media (max-width: 900px) {
+    .hire-container .why-hire {
+        display: none;
+    }
 
-.photo {
-    display: flex;
-    flex-basis: auto;
-    box-sizing: border-box;
-
+    .hire-container .woman {
+        display: none;
+    }
 }
 
-.color > .container > .main-header > .menu-header > .navbar .logo-fotoz {
-    position: relative;
-    top: -12px;
-}
-
-.photo > .main-photo {
-    position: relative;
-    margin-top: 30px;
-    width: 100%;
-}
-
-.photo .img-rotate {
-    position: relative;
-/*     width: 55px;
- */    height: 50px;
-    top: 830px;
-    left: 15px
-}
-
-.container > .row > .services-product {
-    margin-top: 65px;
-    align-items: center;
-    text-align: center;
-}
-
-.hire-container > .row .woman-camera {
-    width: 432px;
-    height: 582px;
-}
-
-.hire-container > .row > .why-hire > .client-status {
-    margin-top: 245px;
-}
-
-.hire-container > .row > .woman-train img{
-    width: 302px;
-    height: 201px;
-}
-
-.color > .container  .photo > .woman-white {
-    width: 400px;
-    height: 600px;
-}
-
-.color > .container  .photo > .man-yellow {
-    position: relative;
-    width: 485px;
-    height: 703px;
-    top: -98px;
-}
-
-.container-team > .container > .row  .photo-man, .photo-woman2 {
-    width: 300px;
-    height: 285px;
-}
-
-.container-team > .container > .row  .photo-woman {
-    width: 300px;
-    height: 400px;
-}
-
-.container-team > .container > .row > .container-member .social-media {
-    margin-left: 7px;
-}
-
-.container-team > .container > .row > .container-member .social-media-position {
-    position: relative;
-    top: -100px;
-}
-
-.container-feedback > .container .photo-feedback {
-    width: 432px;
-    height: 489px;
-}
-
-.container-feedback > .container .photo-aspas .aspas {
-    position: relative;
-    margin-top: 100px;
-    left: 470px;
-}
-
-@media (max-width: 800px) {
-    /* .main-header IDEIA{
-        position: fixed;
-        width: 100%;
-    } */
-
-    .navbar > .btn-cv {
+@media (max-width: 991px) {
+    .container .menu-header .btn-cv {
         display: none;
     }
 
@@ -106,6 +19,27 @@
         align-items: flex-end;
         text-align: right;
     }
+
+    .container-main .btn-hire {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-about > .btn-hire button {
+        left: auto !important;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+    /* .main-header IDEIA{
+        position: fixed;
+        width: 100%;
+    } */
 
     .container-navbar {
         padding-left: 0;
@@ -130,20 +64,6 @@
 
     .container-services {
         margin: 0;
-    }
-
-
-    /* Inicio container Servicos*/
-    .why-hire {
-        display: none;
-    }
-
-    .container-services .woman {
-        display: none;
-    }
-
-    .hire-container > .row > .woman-train {
-        display: none;
     }
 
     .hire-container {
@@ -172,19 +92,10 @@
         font-size: 19px;
         width: 200px;
     }
-    /* Fim Servicos*/
-
-    /* Inicio container portfolio */
     .container-portfolio {
         height: auto;
     }
 
-    .color > .container .project-text-button .project-legend {
-        display: none;
-    }
-    /* Fim container portfolio */
-
-    /* Inicio container projetc */
     .photo-projects {
         margin-right: auto;
         margin-left: auto;
@@ -213,7 +124,6 @@
         left: 0;
         font-size: 25px;
     }
-    /* Fim container projetc */
 
     /* Container team */
 
@@ -231,15 +141,10 @@
     .container-team .container-woman2 {
         top: -70px;
     }
-    /* Fim container team */
 
     /* Container Feed-back */
 
     .container-feedback > .container > .container-photo {
-        display: none;
-    }
-
-    .container-feedback > .container > .photo-aspas {
         display: none;
     }
 
@@ -259,9 +164,7 @@
     .container-feedback > .row .feedback-profession {
         font-size: 12px;
     }
-    /* Fim container feedback */
 
-    /* Inicio container blog */
     .container-blog .container-blog-positon {
         margin-left: 0;
         margin-right: 0;
@@ -275,10 +178,9 @@
         width: 100%;
         padding: 0 15px;
     }
-    /* Fim container blog */
 }
 
-@media (max-width: 1670px) {
+@media (max-width: 1118px) {
 
     .container-about .btn-hire{
         right: auto;
@@ -340,21 +242,128 @@
         margin-top: 0;
     }
 
-    .color > .container .photo > .woman-white {
-        width: 100%;
-        height: 100%;
+    .container-feedback > .container > .container-photo {
+        display: none;
     }
+}
 
-    .color > .container .photo > .man-yellow {
-        width: 100%;
-        height: 100%;
-    }
-    .color > .container .photo > .man-yellow {
-        top: auto;
+@media (max-width: 1388px) {
+
+    .container-portfolio .photo-man-yellow {
+        display: none;
     }
 
     .client-logo {
         display: none;
     }
+
+/*     .container-team .member-position {
+       display: none;
+    } */
 }
 
+@media (max-width: 1655px) {
+    .hire-container > .row > .woman-train img {
+        display: none;
+    }
+
+    .hire-container > .row .hire-paragraph {
+        margin: 0 auto;
+    }
+
+    .hire-container > .row .hire-p {
+        padding-left: 0; 
+    }
+
+    .container-portfolio {
+        height: auto;
+    }
+
+    .color > .container-portfolio > .title-project {
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-portfolio .photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .color > .container .project-paragraph {
+        margin-top: 0;
+    }
+
+    .color > .container .project-text-button {
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .color > .container .project-text-button .project-legend {
+        display: none;
+    }
+
+    .color > .container > .photo-projects .project-text-button .btn-portfolio {
+        left: 0;
+        top: 0;
+    }
+
+    /* Inicio container Team */
+    .container-team > .container > .row .photo-man, .photo-woman2 {
+        width: 100%;
+    }
+
+    .container-team > .container > .row .photo-woman {
+        width: 100%;
+    }
+
+    /* Fim container team */
+    .client-logo {
+        display: none;
+    }
+
+    .container-feedback > .container > .photo-aspas {
+        display: none;
+    }
+
+    .container-feedback > .container > .container-photo {
+        right: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .container-about > .btn-hire button {
+        left: auto;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-portfolio .photo-man-yellow {
+        display: none;
+    }
+}
+
+@media (max-width: 1410px) {
+
+    /* .hire-container > .row > .title p {
+        padding-left: 0;
+    } */
+
+    .color > .container .photo > .man-yellow{
+        width: 350px;
+    }
+}
+
+@media (max-width: 1415px) {
+    /* .color > .container .photo > .man-yellow{
+        width: 370px;
+    } */
+
+}
