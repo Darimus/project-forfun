@@ -17,7 +17,9 @@
 .photo > .main-photo {
     position: relative;
     margin-top: 30px;
-    width: 100%;
+    width: 485px;
+    height: 700px;
+    object-fit: contain;
 }
 
 .photo .img-rotate {
@@ -228,7 +230,7 @@
         margin-top: 10px;
     }
 
-    .container-team .container-woman2 {
+    .container-team > .container > .row .container-woman2 {
         top: -70px;
     }
     /* Fim container team */
@@ -305,10 +307,6 @@
         margin-top: 50px;
     }
 
-    .container-main .photo {
-        display: none;
-    }
-
     .container-main .btn-hire {
         display: flex;
         align-items: center;
@@ -324,13 +322,19 @@
         position: relative;
     }
 
-
     /* Fim menu Superior */
 
     /* Inicio container services */
 
     .container-services .why-hire {
         display: none;
+    }
+
+    .container-services .woman {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .container-services .hire-paragraph {
@@ -372,7 +376,7 @@
     /* Fim container Feedback */
 }
 
-@media (min-width: 992px) { 
+@media (max-width: 992px) { 
  
     /* Menu superior */
 
@@ -382,6 +386,10 @@
 
     .photo .img-rotate {
         display: none;
+    }
+
+    .container-about .btn-hire {
+        right: 150px;
     }
 
     /* Fim menu superior */
@@ -423,86 +431,95 @@
 
     /* Fim container projetos e servicos */
 
+    /* Inicio logo cliente */
+    .client-logo {
+        display: none;
+    }
+    /* Fim logo client */
+
+    /* Inicio container feedback */
+
+    .container-feedback > .container .photo-aspas .aspas {
+        display: none;
+    }
+
+    .container-feedback > .container > .container-photo {
+        right: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    /* Fim container feedback */
     
 }
 
-@media (max-width: 1670px) {
-
-    .container-about .btn-hire{
-        right: auto;
+@media (max-width: 1200px) {  
+    
+    .photo > .main-photo {
+        width: 100%;
+        object-fit: cover;
+        margin: auto 0;
     }
 
-    /* Contianer services */
-    .container-services {
-        margin: 0 auto;
+    .photo > .scroll-p {
+        left: 220px;
     }
 
-    .hire-container {
-        margin-left: 0;
-        margin-right: 0;
+    .container-about .btn-hire {
+        right: 130px;
     }
 
-    .hire-container > .row > .why-hire > .client-status {
-        margin-top: 170px;
+    /* Inicio container portfolio */
+    .color > .container .photo > .woman-white {
+        width: 100%;
+        object-fit: cover;
     }
 
-    .hire-container > .row > .title h2 {
-        margin-top: 50px;
-    }
-    /* Fim container services */
-
-    /* Inicio Portfolio  */
-    .container-portfolio {
-        height: auto;
-        justify-content: center;
-    }
-
-    .photo-projects {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .color > .container .project-paragraph{
-        margin-top: 30px;
-        text-align: center;
+    .color > .container .project-paragraph {
+        margin-top: 0;
     }
 
     .color > .container .project-paragraph .project {
         margin-left: 0;
-
-    }
-
-    .color > .container .project-text-button {
-        top: auto;
-        left: auto;
     }
 
     .color > .container > .photo-projects .project-text-button .btn-portfolio {
-        top: auto;
-        left: auto;
+        font-size: 23px;
+        left: 74px;
     }
     /* Fim container portfolio */
 
+    /* Inicio container team */
+    .container-team > .container > .row .photo-man, .photo-woman2 {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .container-team > .container > .row .photo-woman {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .container-team > .container > .row .container-woman2 {
+        top: 30px;
+    }
+
+    .container-team > .container > .row > .container-member .social-media-position{
+        top: -115px;
+    }
+    /* Fim container team */
+
     /* Inicio container feedback */
-    .container-feedback{
-        margin-top: 0;
+    .container-feedback > .container .photo-aspas .aspas {
+        left: 300px;
     }
 
-    .color > .container .photo > .woman-white {
-        width: 100%;
-        height: 100%;
+    .container-feedback > .container > .container-photo {
+        right: auto;
     }
-
-    .color > .container .photo > .man-yellow {
-        width: 100%;
-        height: 100%;
-    }
-    .color > .container .photo > .man-yellow {
-        top: auto;
-    }
-
-    .client-logo {
-        display: none;
-    }
+    /* Fim container feedback */
 }
 

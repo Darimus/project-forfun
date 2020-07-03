@@ -192,9 +192,3 @@
     align-items: center;
     text-align: center;
 }
-
-@media (max-width: 1199px) {
-    .hire-container > .row > .woman-train {
-        margin-left: 0px;
-    }
-}
