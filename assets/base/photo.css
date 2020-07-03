@@ -90,7 +90,7 @@
     left: 470px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 576px) {
     /* .main-header IDEIA{
         position: fixed;
         width: 100%;
@@ -276,6 +276,154 @@
         padding: 0 15px;
     }
     /* Fim container blog */
+}
+
+@media (max-width: 768px) {  
+    
+    /* Menu superior */
+    .navbar > .btn-cv {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .container-navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .color > .container > .main-header > .menu-header > .navbar .logo-fotoz {
+        top: 0;
+    }
+
+    .container-about > .content-title {
+        margin-top: 50px;
+    }
+
+    .container-main .photo {
+        display: none;
+    }
+
+    .container-main .btn-hire {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-services {
+        margin: 0;
+    }
+
+    .container-about > .btn-hire button {
+        position: relative;
+    }
+
+
+    /* Fim menu Superior */
+
+    /* Inicio container services */
+
+    .container-services .why-hire {
+        display: none;
+    }
+
+    .container-services .hire-paragraph {
+        text-align: center;
+    }
+
+    .hire-container > .row > .title p {
+        padding: 0;
+    }
+
+    .hire-container > .row > .woman-train img {
+        display: none;
+    }
+    /* Fim container services */
+
+    /* Inicio Container Portfolio */
+    .container-portfolio .photo-projects {
+        margin: 0 auto;
+    }
+
+    .color > .container .project-text-button .project-legend{
+        display: none;
+    }
+    /* Fim container portfolio */
+
+    /* Inicio Container Feedback */
+    .container-feedback > .container .photo-aspas .aspas {
+        display: none;
+    }
+
+    .container-feedback > .container > .container-photo {
+        right: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    /* Fim container Feedback */
+}
+
+@media (min-width: 992px) { 
+ 
+    /* Menu superior */
+
+    .photo > .scroll-p {
+        display: none;
+    }
+
+    .photo .img-rotate {
+        display: none;
+    }
+
+    /* Fim menu superior */
+
+    /* Inicio Servicos e projetos */
+
+    .container-services .hire-paragraph {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .hire-container > .row > .title h2{
+        width: auto;
+        text-align: center;
+    }
+
+    .hire-container > .row > .title p {
+        width: auto;
+    }
+
+    .hire-container > .row > .woman-train {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: auto;
+    }
+
+    /* Fim servicos e projetos */
+
+    /* Inicio container projetos e servicos */
+
+    .color > .container .project-text-button .project-legend{
+        display: none;
+    }
+
+    .color > .container > .photo-projects .project-text-button .btn-portfolio{
+        display: inline;
+    }
+
+    /* Fim container projetos e servicos */
+
+    
 }
 
 @media (max-width: 1670px) {
