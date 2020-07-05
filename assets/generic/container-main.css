@@ -1,8 +1,4 @@
-.color {
-    background-color: #f8f9fa;
-}
-
-.container-main {
+.full-container {
     background-color: #f8f9fa;
 }
 
@@ -40,11 +36,11 @@
     height: 780px;
 }
 
-.color > .container .project-paragraph {
+.full-container > .container .project-paragraph {
     margin-top: 136px;
 }
 
-.color > .container .project-text-button {
+.full-container > .container .project-text-button {
     top: -90px;
     left: 3px;
 }

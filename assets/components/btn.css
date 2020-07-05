@@ -32,16 +32,14 @@ body button {
     font-size: 22px;
 }
 
-.color > .container > .photo-projects .project-text-button .btn-portfolio {
-    height: 150px;
-    display: flex;
-    
+.full-container > .container > .photo-projects .project-text-button .btn-portfolio {
+    height: 150px; 
     position: relative;
     font-family: 'Jost', sans-serif;
     font-size: 27px;
     text-align: center;
     align-items: center;
-    left: 114px;
+    left: 64px;
     top: -24px;
 }
 
@@ -86,7 +84,6 @@ body button {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding-left: 35px;
     font-size: 27px;
     box-sizing: border-box;
     border: none;
