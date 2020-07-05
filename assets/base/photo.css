@@ -149,7 +149,7 @@
 
     .full-container > .container > .photo-projects .project-text-button .btn-portfolio {
         font-size: 23px;
-        left: auto;
+        left: 63px;
     }
     /* Fim container portfolio */
 
@@ -180,6 +180,141 @@
     /* Fim container feedback */
 }
 
+@media (max-width: 1199px) {
+
+    /* Inicio container about e menu */
+    .photo > .scroll-p {
+        top: 627px;
+        left: 350px;
+    }
+
+    .photo .img-rotate {
+        top: 730px;
+        left: 464px;
+    }
+
+    .container-about > .btn-hire button {
+        top: -75px;
+        left: 151px;
+    }
+    /* Fim container about e menu */
+
+    /* Container services e hire */
+    .hire-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-services .hire-paragraph {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hire-container > .row > .title h2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hire-container > .row > .title p {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hire-container > .row > .woman-train {
+        justify-content: center;
+        right: 0;
+    }
+    /* Fim container services e hire */
+
+    /* Inicio portfolio */
+    .container-portfolio {
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .container-portfolio .photo {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .full-container > .container .project-paragraph {
+        text-align: center;
+    }
+
+    .full-container > .container .project-text-button .project-legend {
+        display: none;
+    }
+
+    .full-container > .container .photo > .woman-white {
+        width: auto;
+    }
+
+    .full-container > .container .photo > .man-yellow {
+        width: auto;
+        top: 0;
+    }
+
+    .full-container > .container > .photo-projects .project-text-button .btn-portfolio {
+        top: 85px;
+        left: 0;
+    }
+    /* Fim portfolio */
+
+    /* Inicio container team */
+    .container-team {
+        margin-top: 50px;
+    }
+
+    .container-team .container-woman2 {
+        top: -50px;
+    }
+    /* Fim container team */
+
+    /* Inicio container logo */
+
+    .client-logo {
+        justify-content: center;
+    }
+
+    /* Fim container logo */
+
+    /* Inicio Contianer feedback */
+
+    .container-feedback {
+        padding-bottom: 0;
+    }
+
+    .container-feedback > .container > .photo-aspas {
+        display: none;
+    }
+
+    .container-feedback > .container > .container-cite {
+        top: 400px;
+    }
+
+    .container-feedback > .container > .container-photo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        right: auto;
+        top: -300px;
+    }
+
+    /* Fim container feedback */
+}
+
+@media (max-width: 1190px) {
+    .client-logo {
+        display: none;
+    }
+
+    .container-feedback {
+        margin-top: 0;
+    }
+}
+
 @media (max-width: 992px) { 
  
     /* Menu superior */
@@ -196,14 +331,21 @@
         right: 0px;
     }
 
+    .container-about > .btn-hire button {
+        top: 0;
+    }
 
     /* Fim menu superior */
 
-    /* Inicio Servicos e projetos */
+    /* Inicio portfolio */
 
     .container-services .hire-paragraph {
         position: relative;
         margin: 0 auto;
+    }
+
+    .container-services .why-hire {
+        display: none;
     }
 
     .hire-container > .row > .title h2{
@@ -220,11 +362,16 @@
         align-items: center;
         justify-content: center;
         right: auto;
+        margin-top: 50px;
     }
 
-    /* Fim servicos e projetos */
+    /* Fim portfolio */
 
     /* Inicio container projetos e servicos */
+
+    .hire-container {
+        margin-top: 50px;
+    }
 
     .full-container > .container .project-text-button .project-legend{
         display: none;
@@ -232,6 +379,15 @@
 
     .full-container > .container > .photo-projects .project-text-button .btn-portfolio{
         display: inline;
+        margin-top: 30px;
+    }
+
+    .container-services .woman {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 50px;
     }
 
     /* Fim container projetos e servicos */
@@ -275,6 +431,12 @@
 
     /* Fim container feedback */
     
+}
+
+@media (max-width: 991px) {
+    .navbar > .btn-cv {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {  
@@ -371,6 +533,31 @@
         position: relative;
     }
     /* Fim container Feedback */
+}
+
+@media (max-width: 744px) {
+    .photo > .main-photo {
+        display: none;
+    }
+
+    /* Container Services */
+    .container-services .woman {
+        display: none;
+    }
+
+    .container > .row > .services {
+        margin-top: 50px;
+    }
+
+    .hire-container > .row > .btn-start {
+        margin-top: 0;
+    }
+
+    /* Fim container services */
+
+    .container-feedback > .container > .container-cite {
+        top: 450px;
+    }
 }
 
 @media (max-width: 576px) {
