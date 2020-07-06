@@ -2,6 +2,12 @@
     background-color: #f8f9fa;
 }
 
+.full-container .container .container-navbar .navbar-nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .container-about > .content-title {
     margin-top: 100px;
 }

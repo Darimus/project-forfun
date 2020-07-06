@@ -1,17 +1,5 @@
-/* *{ 
-    border: 1px solid red !important; 
-} */
-
-/* .photo {
-    display: flex;
-    flex-basis: auto;
-    box-sizing: border-box;
-
-} */
-
 .full-container > .container > .main-header > .menu-header > .navbar .logo-fotoz {
     position: relative;
-    top: -12px;
 }
 
 .photo > .main-photo {
