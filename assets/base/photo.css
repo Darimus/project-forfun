@@ -555,9 +555,20 @@
 
     /* Fim container services */
 
+    /* Inicio container porfolio */
+
+    .full-container > .container .photo {
+        margin: 50px 0;
+    }
+
+    /* Fim container porfolio */
+
+    /* Inicio container feedback  */
     .container-feedback > .container > .container-cite {
         top: 450px;
     }
+    /* Fim container feedback */
+
 }
 
 @media (max-width: 576px) {
@@ -565,7 +576,7 @@
         position: fixed;
         width: 100%;
     } */
-
+    
     .navbar > .btn-cv {
         display: none;
     }
@@ -594,7 +605,21 @@
         display: none;
     }
 
+    .full-container .container .container-about .photo {
+        margin: 0;
+    }
+
     .container-main .btn-hire {
+        right: auto;
+    }
+
+    .container-about .btn-hire {    
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-about > .btn-hire button {
+        left: auto;
         right: auto;
     }
 
@@ -604,6 +629,11 @@
 
 
     /* Inicio container Servicos*/
+    .container-services .container-services-positon {
+       position: relative;
+        margin: 0 auto;
+    }
+
     .why-hire {
         display: none;
     }
@@ -651,6 +681,10 @@
 
     .full-container > .container .project-text-button .project-legend {
         display: none;
+    }
+
+    .full-container > .container .photo {
+        margin: 50px 0;
     }
     /* Fim container portfolio */
 
@@ -703,7 +737,7 @@
     }
     /* Fim container team */
 
-    /* Container Feed-back */
+    /* Container Feedback */
 
     .container-feedback > .container > .container-photo {
         display: none;
@@ -715,6 +749,7 @@
 
     .container-feedback > .container > .container-cite {
         margin-top: 0;
+        top: 0;
     }
 
     .container-feedback > .row .cite-feedback {
@@ -746,5 +781,29 @@
         padding: 0 15px;
     }
     /* Fim container blog */
+}
+
+@media (max-width: 520px) {
+
+    /* Inicio container services */
+
+    .hire-container > .row > .title h2 {
+        width: 100%;
+    }
+
+    .hire-container > .row > .title p {
+        width: 100%;
+    }
+    /* Fim container services */
+
+    /* Inicio container portfolio */
+    .full-container > .container .photo > .woman-white, .man-yellow {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .full-container > .container .photo-man-yellow {
+        display: none;
+    }
 }
 
